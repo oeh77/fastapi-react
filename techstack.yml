@@ -1,0 +1,830 @@
+repo_name: oeh77/fastapi-react
+report_id: 016d5beb149e1de7de311f515f0ae9ea
+version: 0.1
+repo_type: Public
+timestamp: '2024-03-28T02:42:43+00:00'
+requested_by: dependabot[bot]
+provider: github
+branch: master
+detected_tools_count: 60
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/oeh77/fastapi-react
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/oeh77/fastapi-react
+  detection_source: Repo Metadata
+- name: Jinja
+  description: Full featured template engine for Python
+  website_url: https://palletsprojects.com/p/jinja/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Templating Languages & Extensions
+  image_url: https://img.stackshare.io/service/2303/New_Project__20_.png
+  detection_source_url: https://github.com/oeh77/fastapi-react/blob/master/{{cookiecutter.project_slug}}/backend/requirements.txt
+  detection_source: "{{cookiecutter.project_slug}}/backend/requirements.txt"
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2021-03-20 05:29:08.000000000 Z
+- name: Mako
+  description: Template library written in Python
+  website_url: https://github.com/zzzeek/mako
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Templating Languages & Extensions
+  image_url: https://img.stackshare.io/service/3583/default_43e3ee00dcc48a40f6fcba33551e4f5a99a10537.png
+  detection_source_url: https://github.com/oeh77/fastapi-react
+  detection_source: Repo Metadata
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/oeh77/fastapi-react
+  detection_source: Repo Metadata
+- name: TypeScript
+  description: A superset of JavaScript that compiles to clean JavaScript output
+  website_url: http://www.typescriptlang.org
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source_url: https://github.com/oeh77/fastapi-react
+  detection_source: Repo Metadata
+- name: FastAPI
+  description: A high performance, easy to learn, fast to code, ready for production
+    web framework
+  website_url: https://fastapi.tiangolo.com/
+  version: 0.65.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Microframeworks (Backend)
+  image_url: https://img.stackshare.io/service/25014/default_f6ff39141b468e832d1bc59fc98a060df604d44d.png
+  detection_source_url: https://github.com/oeh77/fastapi-react/blob/master/{{cookiecutter.project_slug}}/backend/requirements.txt
+  detection_source: "{{cookiecutter.project_slug}}/backend/requirements.txt"
+  last_updated_by: Gabe Abud
+  last_updated_on: 2020-03-21 22:19:06.000000000 Z
+- name: Node.js
+  description: A platform built on Chrome's JavaScript runtime for easily building
+    fast, scalable network applications
+  website_url: http://nodejs.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
+  detection_source_url: https://github.com/oeh77/fastapi-react/blob/master/{{cookiecutter.project_slug}}/docker-compose.yml
+  detection_source: "{{cookiecutter.project_slug}}/docker-compose.yml"
+  last_updated_by: Gabe Abud
+  last_updated_on: 2020-03-21 22:19:06.000000000 Z
+- name: React
+  description: A JavaScript library for building user interfaces
+  website_url: https://reactjs.org/
+  version: 16.13.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1020/OYIaJ1KK.png
+  detection_source_url: https://github.com/oeh77/fastapi-react/blob/master/{{cookiecutter.project_slug}}/frontend/package.json
+  detection_source: "{{cookiecutter.project_slug}}/frontend/package.json"
+  last_updated_by: dependabot-preview[bot]
+  last_updated_on: 2020-10-02 18:30:09.000000000 Z
+- name: React Router
+  description: A complete routing solution for React.js
+  website_url: https://github.com/rackt/react-router
+  version: 5.1.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: JavaScript Framework Components
+  image_url: https://img.stackshare.io/service/3350/8261421.png
+  detection_source_url: https://github.com/oeh77/fastapi-react/blob/master/{{cookiecutter.project_slug}}/frontend/package.json
+  detection_source: "{{cookiecutter.project_slug}}/frontend/package.json"
+  last_updated_by: dependabot-preview[bot]
+  last_updated_on: 2020-10-02 18:30:09.000000000 Z
+- name: React-admin
+  description: The React Framework for B2B Apps
+  website_url: https://marmelab.com/react-admin/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/10529/default_ee01ccfd3a243fe511b348ef430837ef9e9a2ad5.png
+  detection_source_url: https://github.com/oeh77/fastapi-react/blob/master/{{cookiecutter.project_slug}}/frontend/package.json
+  detection_source: "{{cookiecutter.project_slug}}/frontend/package.json"
+  last_updated_by: dependabot-preview[bot]
+  last_updated_on: 2020-10-02 18:30:09.000000000 Z
+- name: PostgreSQL
+  description: A powerful, open source object-relational database system
+  website_url: http://www.postgresql.org/
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1028/ASOhU5xJ.png
+  detection_source_url: https://github.com/oeh77/fastapi-react/blob/master/{{cookiecutter.project_slug}}/docker-compose.yml
+  detection_source: "{{cookiecutter.project_slug}}/docker-compose.yml"
+  last_updated_by: Gabriel Abud
+  last_updated_on: 2020-05-30 20:30:58.000000000 Z
+- name: Redis
+  description: Open source (BSD licensed), in-memory data structure store
+  website_url: http://redis.io/
+  version: 3.5.3
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: In-Memory Databases
+  image_url: https://img.stackshare.io/service/1031/default_cbce472cd134adc6688572f999e9122b9657d4ba.png
+  detection_source_url: https://github.com/oeh77/fastapi-react/blob/master/{{cookiecutter.project_slug}}/backend/requirements.txt
+  detection_source: "{{cookiecutter.project_slug}}/backend/requirements.txt"
+  last_updated_by: dependabot-preview[bot]
+  last_updated_on: 2020-06-08 16:19:01.000000000 Z
+- name: SQLAlchemy
+  description: The Python SQL Toolkit and Object Relational Mapper
+  website_url: http://www.sqlalchemy.org/
+  version: 1.3.19
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Object Relational Mapper (ORM)
+  image_url: https://img.stackshare.io/service/1839/q5uAkmy7.png
+  detection_source_url: https://github.com/oeh77/fastapi-react/blob/master/{{cookiecutter.project_slug}}/backend/requirements.txt
+  detection_source: "{{cookiecutter.project_slug}}/backend/requirements.txt"
+  last_updated_by: dependabot-preview[bot]
+  last_updated_on: 2020-08-24 17:01:42.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/oeh77/fastapi-react
+  detection_source: Repo Metadata
+- name: ESLint
+  description: The fully pluggable JavaScript code quality tool
+  website_url: http://eslint.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source_url: https://github.com/oeh77/fastapi-react/blob/master/{{cookiecutter.project_slug}}/frontend/package.json
+  detection_source: "{{cookiecutter.project_slug}}/frontend/package.json"
+  last_updated_by: Gabe Abud
+  last_updated_on: 2020-03-21 22:19:06.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/oeh77/fastapi-react
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/oeh77/fastapi-react/blob/master/.github/workflows/config.yml
+  detection_source: ".github/workflows/config.yml"
+  last_updated_by: Gabriel Abud
+  last_updated_on: 2020-07-29 03:19:46.000000000 Z
+- name: Jest
+  description: Painless JavaScript Unit Testing
+  website_url: http://facebook.github.io/jest/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/830/jest.png
+  detection_source_url: https://github.com/oeh77/fastapi-react/blob/master/{{cookiecutter.project_slug}}/frontend/package.json
+  detection_source: "{{cookiecutter.project_slug}}/frontend/package.json"
+  last_updated_by: Gabe Abud
+  last_updated_on: 2020-03-21 22:19:06.000000000 Z
+- name: NGINX
+  description: A high performance free open source web server powering busiest sites
+    on the Internet.
+  website_url: http://nginx.org
+  open_source: false
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Web Servers
+  image_url: https://img.stackshare.io/service/1052/YMxUfyWf.png
+  detection_source_url: https://github.com/oeh77/fastapi-react/blob/master/{{cookiecutter.project_slug}}/docker-compose.yml
+  detection_source: "{{cookiecutter.project_slug}}/docker-compose.yml"
+  last_updated_by: Gabe Abud
+  last_updated_on: 2020-03-21 22:19:06.000000000 Z
+- name: Prettier
+  description: Prettier is an opinionated code formatter.
+  website_url: https://prettier.io/
+  version: 2.0.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/7035/default_66f265943abed56bcdbfca1c866a4261b1fbb063.jpg
+  detection_source_url: https://github.com/oeh77/fastapi-react/blob/master/{{cookiecutter.project_slug}}/frontend/package.json
+  detection_source: "{{cookiecutter.project_slug}}/frontend/package.json"
+  last_updated_by: Gabe Abud
+  last_updated_on: 2020-05-11 18:19:56.000000000 Z
+- name: PyPI
+  description: A repository of software for the Python programming language
+  website_url: https://pypi.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Hosted Package Repository
+  image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/oeh77/fastapi-react/blob/master/{{cookiecutter.project_slug}}/backend/requirements.txt
+  detection_source: "{{cookiecutter.project_slug}}/backend/requirements.txt"
+  last_updated_by: Gabe Abud
+  last_updated_on: 2020-03-21 22:19:06.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/oeh77/fastapi-react/blob/master/{{cookiecutter.project_slug}}/frontend/package.json
+  detection_source: "{{cookiecutter.project_slug}}/frontend/package.json"
+  last_updated_by: Gabe Abud
+  last_updated_on: 2020-03-21 22:19:06.000000000 Z
+- name: pytest
+  description: A full-featured Python testing tool to help you write better programs
+  website_url: http://pytest.org/latest/
+  version: 6.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/4586/Lu99Qe0Z_400x400.png
+  detection_source_url: https://github.com/oeh77/fastapi-react/blob/master/{{cookiecutter.project_slug}}/backend/requirements.txt
+  detection_source: "{{cookiecutter.project_slug}}/backend/requirements.txt"
+  last_updated_by: dependabot-preview[bot]
+  last_updated_on: 2020-10-01 19:34:43.000000000 Z
+- name: Flower
+  description: Train AI on distributed data
+  website_url: https://flower.dev/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Machine Learning Tools
+  image_url: https://img.stackshare.io/service/48754/default_6b523d55cfbfad0ddf4b3d99a2fe7fa7277d3895.jpg
+  detection_source_url: https://github.com/oeh77/fastapi-react/blob/master/{{cookiecutter.project_slug}}/docker-compose.yml
+  detection_source: "{{cookiecutter.project_slug}}/docker-compose.yml"
+  last_updated_by: jakemanger
+  last_updated_on: 2021-07-22 15:34:46.000000000 Z
+- name: IPython
+  description: A command shell for interactive computing in multiple programming languages
+  website_url: http://ipython.org/index.html
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Shells
+  image_url: https://img.stackshare.io/service/4477/820a0bb9a44fe5a1d640993ab1e6fd84_400x400.png
+  detection_source_url: https://github.com/oeh77/fastapi-react/blob/master/{{cookiecutter.project_slug}}/backend/requirements.txt
+  detection_source: "{{cookiecutter.project_slug}}/backend/requirements.txt"
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2022-02-18 04:40:27.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/oeh77/fastapi-react
+  detection_source: Repo Metadata
+- name: "@material-ui/lab"
+  description: Material-UI Lab - Incubator for Material-UI React components
+  package_url: https://www.npmjs.com/@material-ui/lab
+  version: 4.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18760/default_b057657dca80f65f97b5bbe8ba405ffa92071739.png
+  detection_source_url: https://github.com/oeh77/fastapi-react/blob/master/{{cookiecutter.project_slug}}/frontend/package.json
+  detection_source: "{{cookiecutter.project_slug}}/frontend/package.json"
+  last_updated_by: Gabriel Abud
+  last_updated_on: 2020-05-26 17:29:54.000000000 Z
+- name: "@testing-library/jest-dom"
+  description: Custom jest matchers to test the state of the DOM
+  package_url: https://www.npmjs.com/@testing-library/jest-dom
+  version: 5.11.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17424/default_1cdcda15ebb7caed879f8340bc212b44c4ec9dac.png
+  detection_source_url: https://github.com/oeh77/fastapi-react/blob/master/{{cookiecutter.project_slug}}/frontend/package.json
+  detection_source: "{{cookiecutter.project_slug}}/frontend/package.json"
+  last_updated_by: dependabot-preview[bot]
+  last_updated_on: 2020-10-02 18:30:09.000000000 Z
+- name: "@testing-library/react"
+  description: Simple and complete React DOM testing utilities that encourage good
+    testing practices
+  package_url: https://www.npmjs.com/@testing-library/react
+  version: 11.0.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16549/default_d522554c6a41cb28d922d6d3ad32ad4afa0e3bb5.png
+  detection_source_url: https://github.com/oeh77/fastapi-react/blob/master/{{cookiecutter.project_slug}}/frontend/package.json
+  detection_source: "{{cookiecutter.project_slug}}/frontend/package.json"
+  last_updated_by: dependabot-preview[bot]
+  last_updated_on: 2020-10-02 18:30:09.000000000 Z
+- name: "@types/jest"
+  description: TypeScript definitions for Jest
+  package_url: https://www.npmjs.com/@types/jest
+  version: 26.0.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15840/default_004658cda9b38934f2871435e9dc15608c86e8be.png
+  detection_source_url: https://github.com/oeh77/fastapi-react/blob/master/{{cookiecutter.project_slug}}/frontend/package.json
+  detection_source: "{{cookiecutter.project_slug}}/frontend/package.json"
+  last_updated_by: dependabot-preview[bot]
+  last_updated_on: 2020-08-25 15:51:39.000000000 Z
+- name: "@types/node"
+  description: TypeScript definitions for Node.js
+  package_url: https://www.npmjs.com/@types/node
+  version: 14.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15809/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
+  detection_source_url: https://github.com/oeh77/fastapi-react/blob/master/{{cookiecutter.project_slug}}/frontend/package.json
+  detection_source: "{{cookiecutter.project_slug}}/frontend/package.json"
+  last_updated_by: dependabot-preview[bot]
+  last_updated_on: 2020-08-25 15:51:39.000000000 Z
+- name: "@types/react"
+  description: TypeScript definitions for React
+  package_url: https://www.npmjs.com/@types/react
+  version: 16.9.19
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15894/default_1d65e37e65b7f80761374f0202776043277d505d.png
+  detection_source_url: https://github.com/oeh77/fastapi-react/blob/master/{{cookiecutter.project_slug}}/frontend/package.json
+  detection_source: "{{cookiecutter.project_slug}}/frontend/package.json"
+  last_updated_by: dependabot-preview[bot]
+  last_updated_on: 2020-10-02 18:30:09.000000000 Z
+- name: "@types/react-dom"
+  description: TypeScript definitions for React
+  package_url: https://www.npmjs.com/@types/react-dom
+  version: 16.9.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15946/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
+  detection_source_url: https://github.com/oeh77/fastapi-react/blob/master/{{cookiecutter.project_slug}}/frontend/package.json
+  detection_source: "{{cookiecutter.project_slug}}/frontend/package.json"
+  last_updated_by: dependabot-preview[bot]
+  last_updated_on: 2020-10-02 18:30:09.000000000 Z
+- name: "@types/react-router-dom"
+  description: TypeScript definitions for React Router
+  package_url: https://www.npmjs.com/@types/react-router-dom
+  version: 5.1.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16557/default_d522554c6a41cb28d922d6d3ad32ad4afa0e3bb5.png
+  detection_source_url: https://github.com/oeh77/fastapi-react/blob/master/{{cookiecutter.project_slug}}/frontend/package.json
+  detection_source: "{{cookiecutter.project_slug}}/frontend/package.json"
+  last_updated_by: dependabot-preview[bot]
+  last_updated_on: 2020-10-02 18:30:09.000000000 Z
+- name: "@typescript-eslint/eslint-plugin"
+  description: TypeScript plugin for ESLint
+  package_url: https://www.npmjs.com/@typescript-eslint/eslint-plugin
+  version: 2.24.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15982/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
+  detection_source_url: https://github.com/oeh77/fastapi-react/blob/master/{{cookiecutter.project_slug}}/frontend/package.json
+  detection_source: "{{cookiecutter.project_slug}}/frontend/package.json"
+  last_updated_by: dependabot-preview[bot]
+  last_updated_on: 2020-08-25 15:51:39.000000000 Z
+- name: "@typescript-eslint/parser"
+  description: An ESLint custom parser which leverages TypeScript ESTree
+  package_url: https://www.npmjs.com/@typescript-eslint/parser
+  version: 2.24.0
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15980/default_732016a20524708efe7a4c77497fe9bfeea19ba6.png
+  detection_source_url: https://github.com/oeh77/fastapi-react/blob/master/{{cookiecutter.project_slug}}/frontend/package.json
+  detection_source: "{{cookiecutter.project_slug}}/frontend/package.json"
+  last_updated_by: dependabot-preview[bot]
+  last_updated_on: 2020-08-25 15:51:39.000000000 Z
+- name: eslint-config-airbnb
+  description: Airbnb's ESLint config, following our styleguide
+  package_url: https://www.npmjs.com/eslint-config-airbnb
+  version: 18.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15857/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
+  detection_source_url: https://github.com/oeh77/fastapi-react/blob/master/{{cookiecutter.project_slug}}/frontend/package.json
+  detection_source: "{{cookiecutter.project_slug}}/frontend/package.json"
+  last_updated_by: Gabe Abud
+  last_updated_on: 2020-03-22 18:21:16.000000000 Z
+- name: eslint-config-react-app
+  description: ESLint configuration used by Create React App
+  package_url: https://www.npmjs.com/eslint-config-react-app
+  version: 5.2.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16088/default_c7b204838197013798409fa2b4dafce450edc7fb.png
+  detection_source_url: https://github.com/oeh77/fastapi-react/blob/master/{{cookiecutter.project_slug}}/frontend/package.json
+  detection_source: "{{cookiecutter.project_slug}}/frontend/package.json"
+  last_updated_by: dependabot-preview[bot]
+  last_updated_on: 2020-10-02 18:30:09.000000000 Z
+- name: eslint-plugin-flowtype
+  description: Flowtype linting rules for ESLint
+  package_url: https://www.npmjs.com/eslint-plugin-flowtype
+  version: 4.6.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15940/default_f49d4c116f8ea0155f4d92673b084378bba02760.png
+  detection_source_url: https://github.com/oeh77/fastapi-react/blob/master/{{cookiecutter.project_slug}}/frontend/package.json
+  detection_source: "{{cookiecutter.project_slug}}/frontend/package.json"
+  last_updated_by: dependabot-preview[bot]
+  last_updated_on: 2020-08-25 15:51:39.000000000 Z
+- name: eslint-plugin-import
+  description: Import with sanity
+  package_url: https://www.npmjs.com/eslint-plugin-import
+  version: 2.20.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15806/default_98aa227f51aa9d787815ec3fd98d0ab2bfebbb91.png
+  detection_source_url: https://github.com/oeh77/fastapi-react/blob/master/{{cookiecutter.project_slug}}/frontend/package.json
+  detection_source: "{{cookiecutter.project_slug}}/frontend/package.json"
+  last_updated_by: Gabe Abud
+  last_updated_on: 2020-03-22 18:21:16.000000000 Z
+- name: eslint-plugin-jsx-a11y
+  description: Static AST checker for accessibility rules on JSX elements
+  package_url: https://www.npmjs.com/eslint-plugin-jsx-a11y
+  version: 6.2.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15845/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: https://github.com/oeh77/fastapi-react/blob/master/{{cookiecutter.project_slug}}/frontend/package.json
+  detection_source: "{{cookiecutter.project_slug}}/frontend/package.json"
+  last_updated_by: Gabe Abud
+  last_updated_on: 2020-03-22 18:21:16.000000000 Z
+- name: eslint-plugin-react
+  description: React specific linting rules for ESLint
+  package_url: https://www.npmjs.com/eslint-plugin-react
+  version: 7.19.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15817/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/oeh77/fastapi-react/blob/master/{{cookiecutter.project_slug}}/frontend/package.json
+  detection_source: "{{cookiecutter.project_slug}}/frontend/package.json"
+  last_updated_by: dependabot-preview[bot]
+  last_updated_on: 2020-10-02 18:30:09.000000000 Z
+- name: eslint-plugin-react-hooks
+  description: ESLint rules for React Hooks
+  package_url: https://www.npmjs.com/eslint-plugin-react-hooks
+  version: 2.5.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16149/default_1f3a2fc7d882e29a43394ecdf491b8989ea3f0fa.png
+  detection_source_url: https://github.com/oeh77/fastapi-react/blob/master/{{cookiecutter.project_slug}}/frontend/package.json
+  detection_source: "{{cookiecutter.project_slug}}/frontend/package.json"
+  last_updated_by: dependabot-preview[bot]
+  last_updated_on: 2020-10-02 18:30:09.000000000 Z
+- name: jwt-decode
+  description: Decode JWT tokens, mostly useful for browser applications
+  package_url: https://www.npmjs.com/jwt-decode
+  version: 3.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17395/default_2cd7ed1c123f2fca074a6f4b16c4e73d5bfe82be.png
+  detection_source_url: https://github.com/oeh77/fastapi-react/blob/master/{{cookiecutter.project_slug}}/frontend/package.json
+  detection_source: "{{cookiecutter.project_slug}}/frontend/package.json"
+  last_updated_by: dependabot-preview[bot]
+  last_updated_on: 2020-10-02 18:30:20.000000000 Z
+- name: react-dom
+  description: React package for working with the DOM
+  package_url: https://www.npmjs.com/react-dom
+  version: 16.13.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15808/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/oeh77/fastapi-react/blob/master/{{cookiecutter.project_slug}}/frontend/package.json
+  detection_source: "{{cookiecutter.project_slug}}/frontend/package.json"
+  last_updated_by: dependabot-preview[bot]
+  last_updated_on: 2020-10-02 18:30:09.000000000 Z
+- name: react-router-dom
+  description: DOM bindings for React Router
+  package_url: https://www.npmjs.com/react-router-dom
+  version: 5.1.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16025/default_e25d1fbb04a118c79fb444294461417342bd03bf.png
+  detection_source_url: https://github.com/oeh77/fastapi-react/blob/master/{{cookiecutter.project_slug}}/frontend/package.json
+  detection_source: "{{cookiecutter.project_slug}}/frontend/package.json"
+  last_updated_by: dependabot-preview[bot]
+  last_updated_on: 2020-10-02 18:30:09.000000000 Z
+- name: react-scripts
+  description: Configuration and scripts for Create React App
+  package_url: https://www.npmjs.com/react-scripts
+  version: 3.4.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15985/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
+  detection_source_url: https://github.com/oeh77/fastapi-react/blob/master/{{cookiecutter.project_slug}}/frontend/package.json
+  detection_source: "{{cookiecutter.project_slug}}/frontend/package.json"
+  last_updated_by: dependabot-preview[bot]
+  last_updated_on: 2020-10-02 18:30:09.000000000 Z
+- name: react-test-renderer
+  description: React package for snapshot testing
+  package_url: https://www.npmjs.com/react-test-renderer
+  version: 16.13.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15929/default_ac622bc364a601d766b9a6f6039f191492f54d65.png
+  detection_source_url: https://github.com/oeh77/fastapi-react/blob/master/{{cookiecutter.project_slug}}/frontend/package.json
+  detection_source: "{{cookiecutter.project_slug}}/frontend/package.json"
+  last_updated_by: dependabot-preview[bot]
+  last_updated_on: 2020-10-02 18:30:09.000000000 Z
+- name: standard
+  description: JavaScript Standard Style
+  package_url: https://www.npmjs.com/standard
+  version: 14.3.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15878/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
+  detection_source_url: https://github.com/oeh77/fastapi-react/blob/master/{{cookiecutter.project_slug}}/frontend/package.json
+  detection_source: "{{cookiecutter.project_slug}}/frontend/package.json"
+  last_updated_by: Gabe Abud
+  last_updated_on: 2020-03-22 01:34:02.000000000 Z
+- name: httpx
+  description: The next generation HTTP client
+  package_url: https://pypi.org/project/httpx
+  version: 0.15.5
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20315/default_5f4e928dbcb1c4db4050881fc2e0229785fc931c.png
+  detection_source_url: https://github.com/oeh77/fastapi-react/blob/master/{{cookiecutter.project_slug}}/backend/requirements.txt
+  detection_source: "{{cookiecutter.project_slug}}/backend/requirements.txt"
+  last_updated_by: dependabot-preview[bot]
+  last_updated_on: 2020-10-01 19:34:29.000000000 Z
+  vulnerabilities:
+  - name: Improper Input Validation in httpx
+    cve_id: CVE-2021-41945
+    cve_url: https://github.com/advisories/GHSA-h8pj-cxx2-jfg2
+    detected_date: Apr 30
+    severity: critical
+    first_patched: 0.23.0
+- name: celery
+  description: Distributed Task Queue
+  package_url: https://pypi.org/project/celery
+  version: 5.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19901/default_4f4fb10b6f169603a907dcb35a5a356d784e3bd3.png
+  detection_source_url: https://github.com/oeh77/fastapi-react/blob/master/{{cookiecutter.project_slug}}/backend/requirements.txt
+  detection_source: "{{cookiecutter.project_slug}}/backend/requirements.txt"
+  last_updated_by: dependabot-preview[bot]
+  last_updated_on: 2020-10-01 19:34:17.000000000 Z
+  vulnerabilities:
+  - name: OS Command Injection in celery
+    cve_id: CVE-2021-23727
+    cve_url: https://github.com/advisories/GHSA-q4xr-rc97-m4xx
+    detected_date: Jan 7
+    severity: high
+    first_patched: 5.2.2
+- name: requests
+  description: Python HTTP for Humans
+  package_url: https://pypi.org/project/requests
+  version: 2.24.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19826/default_d7c684bf2673f008a9f02ac93901229297a22d7e.png
+  detection_source_url: https://github.com/oeh77/fastapi-react/blob/master/{{cookiecutter.project_slug}}/backend/requirements.txt
+  detection_source: "{{cookiecutter.project_slug}}/backend/requirements.txt"
+  last_updated_by: dependabot-preview[bot]
+  last_updated_on: 2020-06-23 02:38:50.000000000 Z
+  vulnerabilities:
+  - name: Unintended leak of Proxy-Authorization header in requests
+    cve_id: CVE-2023-32681
+    cve_url: https://github.com/advisories/GHSA-j8r2-6x86-q33q
+    detected_date: May 23
+    severity: moderate
+    first_patched: 2.31.0
+- name: Authlib
+  description: The ultimate Python library in building OAuth and OpenID Connect servers
+  package_url: https://pypi.org/project/Authlib
+  version: 0.14.3
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20752/default_cf2c193a97e2b1ce404093ff2bc569ddeeeb005b.png
+  detection_source_url: https://github.com/oeh77/fastapi-react/blob/master/{{cookiecutter.project_slug}}/backend/requirements.txt
+  detection_source: "{{cookiecutter.project_slug}}/backend/requirements.txt"
+  last_updated_by: dependabot-preview[bot]
+  last_updated_on: 2020-05-19 01:47:45.000000000 Z
+- name: alembic
+  description: A database migration tool for SQLAlchemy
+  package_url: https://pypi.org/project/alembic
+  version: 1.4.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19961/default_61e35171bd9c0e5c5b88b2e4221ca242576ad8c0.png
+  detection_source_url: https://github.com/oeh77/fastapi-react/blob/master/{{cookiecutter.project_slug}}/backend/requirements.txt
+  detection_source: "{{cookiecutter.project_slug}}/backend/requirements.txt"
+  last_updated_by: dependabot-preview[bot]
+  last_updated_on: 2020-10-01 19:34:54.000000000 Z
+- name: bcrypt
+  description: Modern password hashing for your software and your servers
+  package_url: https://pypi.org/project/bcrypt
+  version: 3.2.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20031/default_242158225818ea25f0ab9031a46e17f8ff8246cb.png
+  detection_source_url: https://github.com/oeh77/fastapi-react/blob/master/{{cookiecutter.project_slug}}/backend/requirements.txt
+  detection_source: "{{cookiecutter.project_slug}}/backend/requirements.txt"
+  last_updated_by: dependabot-preview[bot]
+  last_updated_on: 2020-08-17 17:59:10.000000000 Z
+- name: itsdangerous
+  description: Various helpers to pass data to untrusted environments and back
+  package_url: https://pypi.org/project/itsdangerous
+  version: 1.1.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19989/default_b1f1fc9c4c59a78443018e01395203ba8c61dcde.png
+  detection_source_url: https://github.com/oeh77/fastapi-react/blob/master/{{cookiecutter.project_slug}}/backend/requirements.txt
+  detection_source: "{{cookiecutter.project_slug}}/backend/requirements.txt"
+  last_updated_by: Gabe Abud
+  last_updated_on: 2020-03-21 22:19:06.000000000 Z
+- name: passlib
+  description: Comprehensive password hashing framework supporting over 30 schemes
+  package_url: https://pypi.org/project/passlib
+  version: 1.7.2
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19992/default_aa5b3e77340c2bb80cd8e6a59cd82909abcdcd63.png
+  detection_source_url: https://github.com/oeh77/fastapi-react/blob/master/{{cookiecutter.project_slug}}/backend/requirements.txt
+  detection_source: "{{cookiecutter.project_slug}}/backend/requirements.txt"
+  last_updated_by: Gabriel Abud
+  last_updated_on: 2020-05-21 05:34:52.000000000 Z
+- name: psycopg2
+  description: Psycopg2 - Python-PostgreSQL Database Adapter
+  package_url: https://pypi.org/project/psycopg2
+  version: 2.8.6
+  license: BSD-3-Clause-Attribution
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20416/default_64aa60b33468d1d28611966765867676f6303b64.png
+  detection_source_url: https://github.com/oeh77/fastapi-react/blob/master/{{cookiecutter.project_slug}}/backend/requirements.txt
+  detection_source: "{{cookiecutter.project_slug}}/backend/requirements.txt"
+  last_updated_by: dependabot-preview[bot]
+  last_updated_on: 2020-10-02 18:30:31.000000000 Z
+- name: uvicorn
+  description: The lightning-fast ASGI server
+  package_url: https://pypi.org/project/uvicorn
+  version: 0.12.1
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20431/default_f824837db22536768ec317b67275fa384fad7d47.png
+  detection_source_url: https://github.com/oeh77/fastapi-react/blob/master/{{cookiecutter.project_slug}}/backend/requirements.txt
+  detection_source: "{{cookiecutter.project_slug}}/backend/requirements.txt"
+  last_updated_by: dependabot-preview[bot]
+  last_updated_on: 2020-10-01 19:35:03.000000000 Z
